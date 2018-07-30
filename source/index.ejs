@@ -1,6 +1,20 @@
 ---
 layout: index
 ---
+<%
+    const sponsors = [
+      { url: 'http://www.moe.go.kr', img: '/assets/images/sponsors/moe.gif' },
+      { url: 'http://www.msip.go.kr', img: '/assets/images/sponsors/msip.gif' },
+      { url: 'http://www.msip.go.kr', img: '/assets/images/sponsors/mi.jpg' },
+      { url: 'http://www.nrf.re.kr', img: '/assets/images/sponsors/nrf.jpg' },
+      { url: 'http://www.case.re.kr', img: '/assets/images/sponsors/case.jpg' },
+      { url: 'http://www.posco.com', img: '/assets/images/sponsors/posco.jpg' },
+      { url: 'http://www.samsungftf.com', img: '/assets/images/sponsors/samsung.jpg' },
+      { url: 'http://www.lgdisplay.com', img: '/assets/images/sponsors/lgdisplay.jpg' },
+      { url: 'https://www.keysight.com', img: '/assets/images/sponsors/keysight.jpg' },
+      { url: 'https://www.ansys.com', img: '/assets/images/sponsors/ansys.jpg' }
+    ];
+%>
 <div class="container-fluid flush-with-header">
   <div class="row margin-bottom-40 row-corporate" style="background-image: url(assets/images/banners/banner-3.jpg); height: 400px;">
   </div>
@@ -77,9 +91,9 @@ layout: index
 	<div class="">
 	  <div class="recent-work-item">
 	    <em>
-	      <img src="/assets/images/fabrication_thumbnail.jpg" alt="Fabrication Technology" class="img-responsive">
-	      <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
-	      <a href="metronic/assets/pages/img/works/img1.jpg" class="fancybox-button" title="Project Name #1" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+          <a href="/research#category_1">
+            <img src="/assets/images/fabrication_thumbnail.jpg" alt="Fabrication Technology" class="img-responsive">
+          </a>
 	    </em>
 	    <a class="recent-work-description" href="/research#category_1">
 	      <strong>Fabrication Technology</strong>
@@ -91,9 +105,9 @@ layout: index
 	<div class="">
 	  <div class="recent-work-item">
 	    <em>
-	      <img src="assets/images/emerging_thumbnail.jpg" alt="Emerging Flexible Device" class="img-responsive">
-	      <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
-	      <a href="metronic/assets/pages/img/works/img2.jpg" class="fancybox-button" title="Project Name #2" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+          <a href="/research#category_2">
+            <img src="assets/images/emerging_thumbnail.jpg" alt="Emerging Flexible Device" class="img-responsive">
+          </a>
 	    </em>
 	    <a class="recent-work-description" href="/research#category_2">
 	      <strong>Emerging Flexible Device</strong>
@@ -105,9 +119,9 @@ layout: index
 	<div class="">
 	  <div class="recent-work-item">
 	    <em>
-	      <img src="assets/images/healthcare_thumbnail.jpg" alt="Wearable Healthcare" class="img-responsive">
-	      <a href="portfolio-item.html"><i class="fa fa-link"></i></a>
-	      <a href="metronic/assets/pages/img/works/img3.jpg" class="fancybox-button" title="Project Name #3" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+          <a href="/research#category_3">
+            <img src="assets/images/healthcare_thumbnail.jpg" alt="Wearable Healthcare" class="img-responsive">
+          </a>
 	    </em>
 	    <a class="recent-work-description" href="/research#category_3">
 	      <strong>Wearable Healthcare</strong>
@@ -330,69 +344,97 @@ layout: index
     -->
     <!-- END BLOCKQUOTE BLOCK -->
 
-
     <!-- BEGIN SPONSORS -->
     <div class="row margin-bottom-40 our-clients">
-      <div class="col-md-3">
+      <div class="col-md-3 maring-bottom-20">
 	<h2><a href="javascript:;">Our Sponsors</a></h2>
 	<p>We appreciate the support from a variety of government agencies, consortiums, and companies.</p>
       </div>
-      <div class="col-md-9">
-	<div class="owl-carousel owl-carousel5">
+      <% const count = 5; for(var i=0; i < sponsors.length/count; i++) { %>
+        <div class="col-md-9">
+      <div class="owl-carousel owl-carousel5">
+          <% for(var j=0; j < count; j++) { %>
+      <div class="">
+        <a target="_blank" href=<%= sponsors[(i*count + j)]['url'] %>>
+          <img src=<%= sponsors[(i*count + j)]['img'] %> class="img-responsive" alt="" style="height:90px; object-fit: contain;">
+        </a>
+      </div>
+    <% } %>
+    </div>
+      </div>
+    <% } %>
+    <!--
+      <div class="col-md-4">
+	<div class="owl-carousel owl-carousel2">
       <div class="">
         <a target="_blank" href="http://www.moe.go.kr">
-          <img src="/assets/images/sponsors/moe.gif" class="img-responsive" alt="">
+          <img src="/assets/images/sponsors/moe.gif" class="img-responsive" alt="" style="height:90px; object-fit: contain;">
         </a>
 	  </div>
       <div class="">
         <a target="_blank" href="http://www.msip.go.kr">
-          <img src="/assets/images/sponsors/msip.gif" class="img-responsive" alt="">
+          <img src="/assets/images/sponsors/msip.gif" class="img-responsive" alt="" style="height:90px; object-fit: contain;">
         </a>
-	  </div>
+      </div>
+    </div>
+      </div>
+      <div class="col-md-4">
+	<div class="owl-carousel owl-carousel2">
       <div class="">
         <a target="_blank" href="http://www.msip.go.kr">
-          <img src="/assets/images/sponsors/mi.jpg" class="img-responsive" alt="">
+          <img src="/assets/images/sponsors/mi.jpg" class="img-responsive" alt="" style="height:90px; object-fit: contain;">
         </a>
 	  </div>
       <div class="">
         <a target="_blank" href="http://www.nrf.re.kr">
-          <img src="/assets/images/sponsors/nrf.jpg" class="img-responsive" alt="">
+          <img src="/assets/images/sponsors/nrf.jpg" class="img-responsive" alt="" style="height:90px; object-fit: contain;">
+        </a>
+      </div>
+    </div>
+      </div>
+      <div class="col-md-4">
+	<div class="owl-carousel owl-carousel2">
+      <div class="">
+        <a target="_blank" href="http://www.case.re.kr">
+          <img src="/assets/images/sponsors/case.jpg" class="img-responsive" alt="" style="height:90px; object-fit: contain;">
         </a>
 	  </div>
       <div class="">
-        <a target="_blank" href="http://www.case.re.kr">
-          <img src="/assets/images/sponsors/case.jpg" class="img-responsive" alt="">
+        <a target="_blank" href="http://www.posco.com">
+          <img src="/assets/images/sponsors/posco.jpg" class="img-responsive" alt="" style="height:90px; object-fit: contain;">
         </a>
 	  </div>
     </div>
-	<div class="owl-carousel owl-carousel5">
-      <div class="">
-        <a target="_blank" href="http://www.posco.com">
-          <img src="/assets/images/sponsors/posco.jpg" class="img-responsive" alt="">
-        </a>
-	  </div>
+      </div>
+      <div class="col-md-4">
+	<div class="owl-carousel owl-carousel2">
       <div class="">
         <a target="_blank" href="http://www.samsungftf.com">
-          <img src="/assets/images/sponsors/samsung.jpg" class="img-responsive" alt="">
+          <img src="/assets/images/sponsors/samsung.jpg" class="img-responsive" alt="" style="height:90px; object-fit: contain;">
         </a>
 	  </div>
       <div class="">
         <a target="_blank" href="http://www.lgdisplay.com">
-          <img src="/assets/images/sponsors/lgdisplay.jpg" class="img-responsive" alt="">
+          <img src="/assets/images/sponsors/lgdisplay.jpg" class="img-responsive" alt="" style="height:90px; object-fit: contain;">
         </a>
 	  </div>
+    </div>
+      </div>
+      <div class="col-md-4">
+	<div class="owl-carousel owl-carousel2">
       <div class="">
         <a target="_blank" href="https://www.keysight.com">
-          <img src="/assets/images/sponsors/keysight.jpg" class="img-responsive" alt="">
+          <img src="/assets/images/sponsors/keysight.jpg" class="img-responsive" alt="" style="height:90px; object-fit: contain;">
         </a>
 	  </div>
       <div class="">
         <a target="_blank" href="https://www.ansys.com">
-          <img src="/assets/images/sponsors/ansys.jpg" class="img-responsive" alt="">
+          <img src="/assets/images/sponsors/ansys.jpg" class="img-responsive" alt="" style="height:90px; object-fit: contain;">
         </a>
 	  </div>
-	</div>
-      </div>          
+    </div>
+  </div>
+  -->
     </div>
     <!-- END SPONSORS -->
   </div>
