@@ -1,0 +1,20 @@
+<div class="container">
+  <ul class="breadcrumb">
+    <li><a href="/">Home</a></li>
+    <li class="active">Achivements</li>
+  </ul>
+<div id="main">
+  <h1>Achivements</h1>
+  <div class="filter-v1">
+    <!--
+      <ul class="mix-filter">
+        <li data-filter="all" class="filter active">All</li>
+        <li data-filter="2018" class="filter">2018</li>
+        <li data-filter="2017" class="filter">2017</li>
+        <li data-filter="2016" class="filter">2016</li>
+      </ul>
+      -->
+      <%- partial('_partial/archive', {pagination: config.archive, index: false}) %>
+    </div>
+  </div>
+</div>

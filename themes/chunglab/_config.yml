@@ -1,0 +1,50 @@
+# Header Menu
+menu:
+  Home: /
+  Research: /research/
+  People: /people/
+  Achivements: /archives/
+  Openings: /openings/
+  Contact: /contact/
+   
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true # whether or not to load the fancybox library
+
+# Integrations
+disqus_shortname: 
+google_analytics:
+swiftype_install_key: 
+
+# Social
+social:
+  twitter: http://www.twitter.com
+  facebook: http://www.facebook.com
+  linkedin: http://www.linkedin.com
+
+# Miscellaneous
+color_scheme: turquoise   # options: blue, gray, green, orange, red, turquoise
+favicon: /favicon.ico # path from root of hexo site
+default_author: Anonymous
+
+about: Flexible Electronics Group at POSTECH
+professor:
+  name: Yoonyoung Chung
+  phone: +82-54-279-2225
+  email: ychung@postech.ac.kr
+
+group_admin:
+  name: Chaehyun Lee
+  phone: +82-54-279-8092
+  email: sms1621@postech.ac.kr
+
+phone: +82-54-279-8092
+email: sms1621@postech.ac.kr
+address_1: "LG Building #203, 77 Cheongam-ro"
+address_2: Nam-gu, Pohang
+address_3: Gyeongbuk, 37673, Republic of Korea
+skype:
+lat: 36.011495
+long: 129.320422

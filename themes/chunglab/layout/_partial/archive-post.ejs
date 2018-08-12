@@ -1,0 +1,44 @@
+<div class="row">
+  <!--
+  <div class="row mix mix_all <%=post.filter %>">
+    -->
+  <div class="col-md-4 col-sm-4">
+    <% if (post.thumbnail) { %>
+      <%- image_tag(post.thumbnail, {class: "img-responsive"}) %>
+    <% } %>
+  </div>
+  <% if (post.thumbnail) { %>
+    <div class="col-md-8 col-sm-8">
+  <% } else { %>
+    <div class="col-xs-12">
+  <% } %>
+    <%- partial('post/title', {class_name: 'archive-article-title'}) %>
+    <ul class="blog-info">
+      <li>
+      	<i class="fa fa-calendar"></i> 
+        <%- partial('post/date', {class_name: 'archive-article-date', date_format: 'YYYY/MM/DD'}) %>
+      </li>
+      <li><i class="fa fa-user"></i> <%- post.author || theme.default_author || "Anonymous" %></li>
+      <% if(post.journal) { %>
+        <li><i class="fa fa-book"></i> <%- post.journal || "Anonymous" %></li>
+      <% } %>
+      <% if(post.tags.length > 0) { %>
+      <li>
+	<i class="fa fa-tags"></i>
+	<%- partial('post/tag') %>
+      </li>
+      <% } %>
+    <% if(post.venue) { %>
+      <li><i class="fa fa-map-marker"></i> <%- post.venue %></li>
+    <% } %>
+    </ul>
+    <div class="blog-item">
+      <% if (index == true){ %>
+	<%- post.lede || post.excerpt || post.content %>
+      <% } else { %>
+	<%- post.lede || post.excerpt %>
+      <% } %>
+    </div>
+    <hr class="blog-post-sep">
+  </div>
+</div>
