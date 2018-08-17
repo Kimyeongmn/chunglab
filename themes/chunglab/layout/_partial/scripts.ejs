@@ -9,6 +9,7 @@
 <%- js('metronic/assets/plugins/owl.carousel/owl.carousel.min.js') %>
 <%- js('metronic/assets/corporate/scripts/layout.js') %>
 <%- js('js/wow.min.js') %>
+<%- js('js/jssor.slider-27.4.0.min.js') %>
 
 <% if (theme.fancybox){ %>
   <%- css('fancybox/jquery.fancybox') %>
@@ -24,8 +25,54 @@
         Layout.initNavScrolling(); 
 	new WOW().init();
     });
+
+const MAX_WIDTH = 1268;
+const SLIDE_TRANSITION_IN_MS = 5000;
+jssor_1_slider_init = function() {
+  var options = { 
+    $AutoPlay: 1,
+    $Idle: SLIDE_TRANSITION_IN_MS,
+    $BulletNavigatorOptions: {
+      $Class: $JssorBulletNavigator$,
+      $ChanceToShow: 2
+    } };
+
+  var jssor_1_slider = new $JssorSlider$("jssor_1", options);
+
+  function ScaleSlider() {
+    var containerElement = jssor_1_slider.$Elmt.parentNode;
+    var containerWidth = containerElement.clientWidth;
+
+    if (containerWidth) {
+
+      var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+      
+      jssor_1_slider.$ScaleWidth(expectedWidth);
+    }
+    else {
+      window.setTimeout(ScaleSlider, 30);
+    }
+  }
+
+  ScaleSlider();
+
+  $Jssor$.$AddEvent(window, "load", ScaleSlider);
+  $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+  $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+  /*#endregion responsive code end*/
+};
 </script>
 <!-- END CORE PLUGINS -->
+
+<style>
+   /*jssor slider bullet skin 052 css*/
+        .jssorb052 .i {position:absolute;cursor:pointer;}
+        .jssorb052 .i .b {fill:#000;fill-opacity:0.3;}
+        .jssorb052 .i:hover .b {fill-opacity:.7;}
+        .jssorb052 .iav .b {fill-opacity: 1;}
+        .jssorb052 .i.idn {opacity:.3;}
+
+</style>
 
 <!-- BEGIN PAGE-SPECIFIC PLUGINS --> 
 <% if (page.title == "Projects" || page.title == "Research" || is_archive()){ %>
@@ -80,4 +127,6 @@
 <% } %>
 <%- partial('disqus') %>
 <%- partial('google-analytics') %>
+
+<script type="text/javascript">jssor_1_slider_init();</script>
 <!-- END INTEGRATIONS -->
