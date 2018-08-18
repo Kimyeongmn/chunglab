@@ -35,7 +35,12 @@ var Portfolio = function () {
 
           $(".mix-info").hide();
           $(".mix-details").show();
-          $(".mix-grid").children().show();
+      //    $(".mix-grid").children().show();
+          $(".mix-grid").children().each(function() {
+            if ($(this).css('opacity') == 1){
+              $(this).show();
+            }
+          });
            location.hash = "";
         });
       }
