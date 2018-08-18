@@ -126,5 +126,7 @@ jssor_1_slider_init = function() {
 <%- partial('disqus') %>
 <%- partial('google-analytics') %>
 
-<script type="text/javascript">jssor_1_slider_init();</script>
+<% if (page.layout == "index"){ %>
+  <script type="text/javascript">jssor_1_slider_init();</script>
+<% } %>
 <!-- END INTEGRATIONS -->
