@@ -1,12 +1,9 @@
 var Portfolio = function () {
-
-
   return {
     //main function to initiate the module
     init: function () {
+     if (location.hash) {
 
-      if(location.hash){
-console.log(location.hash);
     var projectName = location.hash;
     var categoryName = location.hash;
     var projectLink = $("a[href=" + projectName + "]");
@@ -24,7 +21,7 @@ console.log(location.hash);
       }
 
       doCommon();
-    
+
       function doCommon(){
         $('.mix-preview, .mix-link').click(function(){
           showProject($(this).parent().parent().parent());
@@ -44,7 +41,6 @@ console.log(location.hash);
       }
 
       function showProject(root){
-	  console.log("here");
 	  $(".mix-grid").children().hide();
 	  root.show();
 	  root.removeClass("col-md-4");
