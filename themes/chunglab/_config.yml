@@ -17,6 +17,7 @@ fancybox: true # whether or not to load the fancybox library
 disqus_shortname: 
 google_analytics:
 swiftype_install_key: 
+google_api_key: AIzaSyD7RT6pmLegZhafuIFidWxy23MpGFV8-Gw
 
 # Social
 social:
