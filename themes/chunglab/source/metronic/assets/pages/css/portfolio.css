@@ -80,7 +80,7 @@
 }
 .mix-grid .mix a.mix-preview {
   left: 50%;
-  margin-left: 5px;
+  margin-left: -25px;
 }
 .mix-grid .mix a.mix-link {
   right: 50%;
