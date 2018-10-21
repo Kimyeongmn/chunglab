@@ -2,6 +2,9 @@
 Template Name: Metronic - Responsive Website Template build with Twitter Bootstrap 3.1.1
 */
 
+html {
+  background-color: #272626
+}
 /* General body settings */
 body { 
 	color: #3e4d5c; 
@@ -2109,7 +2112,7 @@ Demo Utils
 	color: #E02222;
 }
 .recent-work-item {
-	padding-left: 10px;
+  margin-bottom: 10px;
 }
 .recent-work .owl-buttons {
 	left: -74px;
@@ -2131,8 +2134,8 @@ Demo Utils
 .recent-work .recent-work-item strong {
 	color: #000;
 	display: block;
-	font-size: 16px;
-	font-weight: 300;
+	font-size: 18px;
+	font-weight: 400;
 }
 .recent-work .recent-work-item b {
 	color: #656565;
