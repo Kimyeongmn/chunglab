@@ -5,7 +5,7 @@ journal: Advanced Materials 26, 3213 (2014)
 tags:
 - graphene electronics
 - nature communications
-category: publication
+category: Publication
 filter: 2014
 ---
 

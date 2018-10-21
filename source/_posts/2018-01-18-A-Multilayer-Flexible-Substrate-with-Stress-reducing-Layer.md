@@ -8,6 +8,6 @@ tags:
 - graphene transistors
 - ubiquitos
 - electronics
-category: patent
+category: Patent
 filter: 2018
 ---

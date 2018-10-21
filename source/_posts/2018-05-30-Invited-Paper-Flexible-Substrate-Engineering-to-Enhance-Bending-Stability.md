@@ -4,7 +4,7 @@ author: Seongmin Park, Hyuk Park, Yoonyoung Chung
 journal: SID Symposium Digest of Technical Papers 49, 892 (2018)
 tags:
 - flexible
-category: publication
+category: Publication
 filter: 2018
 ---
 

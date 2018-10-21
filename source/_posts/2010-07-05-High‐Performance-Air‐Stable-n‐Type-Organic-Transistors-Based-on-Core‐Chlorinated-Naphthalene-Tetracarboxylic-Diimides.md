@@ -4,7 +4,7 @@ author: Joon Hak Oh, Sabin–Lucian Suraru, Wen‐Ya Lee, Martin Könemann, Hans
 journal: Advanced Functional Materials 20, 2148 (2010)
 tags:
 - organic transistors
-category: publication
+category: Publication
 filter: 2010
 ---
 

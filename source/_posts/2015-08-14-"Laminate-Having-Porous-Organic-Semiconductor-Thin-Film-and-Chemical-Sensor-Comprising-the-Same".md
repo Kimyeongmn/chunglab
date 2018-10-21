@@ -4,6 +4,6 @@ author: Kilwon Cho, Joon Hak Oh, Boseok Kang, Moonjeong Jang, Yoonyoung Chung
 country: US
 number: 9,718,251
 status: approved
-category: patent
+category: Patent
 filter: 2015
 ---

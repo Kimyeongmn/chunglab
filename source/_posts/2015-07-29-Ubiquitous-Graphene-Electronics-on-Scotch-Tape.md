@@ -6,7 +6,7 @@ tags:
 - graphene transistors
 - ubiquitos
 - electronics
-category: publication
+category: Publication
 filter: 2015
 ---
 

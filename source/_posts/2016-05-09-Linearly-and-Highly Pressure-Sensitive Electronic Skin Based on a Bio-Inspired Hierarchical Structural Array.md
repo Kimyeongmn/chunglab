@@ -4,7 +4,7 @@ author: Geun Yeol Bae, Sang Woo Pak, Daegun Kim, Giwon Lee, Do Hwan Kim, Yoonyou
 journal: Advanced Materials 28, 5300 (2016)
 tags:
 - electronic skin
-category: publication
+category: Publication
 filter: 2016
 ---
 

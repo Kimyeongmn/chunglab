@@ -4,6 +4,6 @@ author: Kilwon Cho, Yoonyoung Chung, Hyun Ho Kim
 country: US
 number: 9,685,558
 status: approved
-category: patent
+category: Patent
 filter: 2015
 ---

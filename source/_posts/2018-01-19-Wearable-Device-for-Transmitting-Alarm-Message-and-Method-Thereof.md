@@ -4,6 +4,6 @@ author: Yoonyoung Chung, Kilwon Cho, Inyeol Yun
 country: Korea
 number: 10-2018-0007246
 status: pending
-category: patent
+category: Patent
 filter: 2018
 ---

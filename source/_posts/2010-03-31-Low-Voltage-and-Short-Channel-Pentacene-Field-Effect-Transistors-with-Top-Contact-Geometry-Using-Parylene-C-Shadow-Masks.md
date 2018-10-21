@@ -4,7 +4,7 @@ author: Yoonyoung Chung, Boris Murmann, Selvapraba Selvarasah, Mehmet R Dokmeci,
 journal: Applied Physics Letters 96, 133306 (2010)
 tags:
 - transistors
-category: publication
+category: Publication
 filter: 2010
 ---
 

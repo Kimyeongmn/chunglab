@@ -5,7 +5,7 @@ journal: "Nature Communications 5, Article number: 4752 (2014)"
 tags:
 - semiconductor
 - nature communications
-category: publication
+category: Publication
 filter: 2014
 reference: https://www.nature.com/articles/ncomms5752
 ---

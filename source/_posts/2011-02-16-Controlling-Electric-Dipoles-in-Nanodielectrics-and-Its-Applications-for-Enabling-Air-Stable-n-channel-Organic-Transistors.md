@@ -4,7 +4,7 @@ author: Yoonyoung Chung, Olasupo Johnson, Michael Deal, Yoshio Nishi, Boris Murm
 journal: Nano Letters 11, 1161 (2011)
 tags:
 - organic transistors
-category: publication
+category: Publication
 filter: 2011
 ---
 

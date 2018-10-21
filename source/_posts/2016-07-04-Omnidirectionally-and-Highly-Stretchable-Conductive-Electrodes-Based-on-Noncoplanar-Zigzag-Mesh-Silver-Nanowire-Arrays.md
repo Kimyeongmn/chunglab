@@ -4,7 +4,7 @@ author: Giwon Lee  Seung Goo Lee  Yoonyoung Chung  Geun Yeol Bae  Sangryun Lee  
 journal: Advanced Electronic Materials 2, 1600158 (2016)
 tags:
 - conductive
-category: publication
+category: Publication
 filter: 2016
 ---
 

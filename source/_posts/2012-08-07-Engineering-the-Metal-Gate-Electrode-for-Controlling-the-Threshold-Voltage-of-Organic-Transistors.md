@@ -5,7 +5,7 @@ journal: Applied Physics Letters 101, 063304 (2012)
 tags:
 - organic transistors
 - electrode
-category: publication
+category: Publication
 filter: 2012
 ---
 

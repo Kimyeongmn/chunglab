@@ -4,6 +4,6 @@ author: Kilwon Cho, Yoonyoung Chung, Hyun Ho Kim
 country: China
 number: 201680042546.0
 status: pending
-category: patent
+category: Patent
 filter: 2018
 ---

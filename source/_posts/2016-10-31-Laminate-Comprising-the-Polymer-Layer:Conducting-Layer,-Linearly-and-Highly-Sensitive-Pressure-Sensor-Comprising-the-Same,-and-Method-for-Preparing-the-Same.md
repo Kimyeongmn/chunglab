@@ -4,6 +4,6 @@ author: Kilwon Cho, Yoonyoung Chung, Gun Yeol Bae
 country: Korea
 number: 10-2016-0143484
 status: pending
-category: patent
+category: Patent
 filter: 2016
 ---
