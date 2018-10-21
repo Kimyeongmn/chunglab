@@ -8,7 +8,7 @@ category: Publication
 filter: 2011
 ---
 
-## Abstract
+### Abstract
 
 We present a new method to manipulate the channel charge density of field-effect transistors using dipole-generating self-assembled monolayers (SAMs) with different anchor groups. Our approach maintains an ideal interface between the dipole layers and the semiconductor while changing the built-in electric potential by 0.41−0.50 V. This potential difference can be used to change effectively the electrical properties of nanoelectronic devices. We further demonstrate the application of the SAM dipoles to enable air-stable operation of n-channel organic transistors.
 

@@ -9,7 +9,7 @@ category: Publication
 filter: 2014
 ---
 
-## Abstract
+### Abstract
 
 Transferring graphene without water enables water‐sensitive substrates to be used in graphene electronics. A polymeric bilayer (PMMA/PBU) is coated on graphene as a supporting layer for the water‐free transfer process and as an excellent passivation layer that enhances device operation.
 

@@ -9,7 +9,7 @@ category: Publication
 filter: 2012
 ---
 
-## Abstract
+### Abstract
 
 For practical applications of organic field-effect transistors (OFETs), the control of threshold voltage (<i>V</i><sub>TH</sub>) is important as different circuits require different electrical characteristics. Here, we demonstrate two types of gate electrode structures to achieve this control, namely, via dual-metal gates and bilayer metal gates. The first approach uses different metallic materials, titanium, and platinum, while the second approach uses different thicknesses in a metal bilayer composed of aluminum and platinum. Our results show that the <i>V</i><sub>TH</sub> is varied by more than 20% of the supply voltage without affecting the field-effect mobility values for both pentacene p-channel and C<sub>60</sub> n-channel OFETs.
 

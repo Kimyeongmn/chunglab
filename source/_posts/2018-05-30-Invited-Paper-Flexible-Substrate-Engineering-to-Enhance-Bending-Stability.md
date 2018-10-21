@@ -8,7 +8,7 @@ category: Publication
 filter: 2018
 ---
 
-## Abstract
+### Abstract
 
 We propose a novel substrate structure to achieve excellent mechanical flexibility. Electronic components on a flexible substrate are affected by surface strain when bent. Our flexible substrate contains a strain‐absorbing layer that can effectively reduce the surface strain; thus, flexible devices can be more flexible with minimal electrical degradation.
 

@@ -8,7 +8,7 @@ category: Publication
 filter: 2016
 ---
 
-## Abstract
+### Abstract
 
 Omnidirectionally and highly stretchable conductive electrodes composed of noncoplanar zigzag mesh silver nanowire (AgNW) arrays exhibit outstanding stretchability under strains with randomly chosen directions. This unique property enables the conductive electrodes to be attached on any types of substrates regardless of their deformability when they are used in electronic skin applications.
 

@@ -8,7 +8,7 @@ category: Publication
 filter: 2010
 ---
 
-## Abstract
+### Abstract
 
 Core‐chlorinated naphthalene tetracarboxylic diimides (NDIs) with fluoroalkyl chains are synthesized and employed for n‐channel organic thin‐film transistors (OTFTs).
 Structural analyses of the single crystals and thin films are performed and their charge‐transport behavior is investigated in terms of structure–property relationships.

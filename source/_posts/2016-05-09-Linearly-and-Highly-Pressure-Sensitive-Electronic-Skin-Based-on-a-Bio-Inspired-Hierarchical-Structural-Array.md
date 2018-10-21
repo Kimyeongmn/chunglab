@@ -8,7 +8,7 @@ category: Publication
 filter: 2016
 ---
 
-## Abstract
+### Abstract
 
 Pressure‐sensitive electronic skin composed of a hierarchical structural array exhibits outstanding linear and high sensitivity in the pressure range exerted by gentle touch. By virtue of monolayer graphene acting as electrode material, this device can be operated with low voltage. Especially, its high transparency enables an accurate placement of the device on the target position when it is used for health monitoring.
 
