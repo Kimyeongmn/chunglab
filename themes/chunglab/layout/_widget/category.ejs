@@ -2,7 +2,7 @@
 <div class="widget-wrap">
   <div class="widget">
     <ul class="nav sidebar-categories margin-bottom-40">
-      <% site.categories.sort((a,b) =>  b.name > a.name ).reverse().forEach(function(cat){ %>
+      <% site.categories.sort((a,b) =>  b.name > a.name ).forEach(function(cat){ %>
 	<li>
 	  <a href="<%= url_for(cat.path) %>"><%= cat.name %> (<%= cat.length  %>)</a>
 	</li>
