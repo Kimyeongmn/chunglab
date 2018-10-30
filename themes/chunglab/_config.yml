@@ -30,8 +30,8 @@ color_scheme: turquoise   # options: blue, gray, green, orange, red, turquoise
 favicon: /favicon.ico # path from root of hexo site
 default_author: Anonymous
 
-about: Flexible Electronics Group at POSTECH
-description: "Flexible Electronics Group at POSTECH2"
+about: Flexible Electronics Group
+description: Flexible Electronics Group at POSTECH
 professor:
   name: Yoonyoung Chung
   phone: +82-54-279-2225
@@ -50,3 +50,119 @@ address_3: Gyeongbuk, 37673, Republic of Korea
 skype:
 lat: 36.011495
 long: 129.320422
+
+photos:
+  - src: /assets/images/team/group/2017_summer.jpg
+    caption: 2017 Summer
+  - src: /assets/images/team/group/2017_spring.jpg
+    caption: 2017 Spring
+  - src: /assets/images/team/group/2016_spring.jpg
+    caption: 2016 Spring
+people:
+  principal_investigator:
+    name: Yoonyoung Chung
+    desc: Ph.D., Electrical Engineering, Stanford University (2012)
+    thumb: ../metronic/assets/pages/img/people/img5-large.jpg
+  graduate_students:
+    - name: Taewon Seo
+      desc: |
+        Research interest: Undergraduate student at POSTECH EE (to be enrolled in our graduate program in Spring 2018)
+    - name: Jiinpyeo Jeung
+      desc: Undergraduate student at POSTECH EE (to be enrolled in our graduate program in Spring 2018) LG Display, Intern (Summer 2016)
+    - name: Seongmin Park
+      desc: |
+        Research interest: Flexible full-color electronic paper; novel 3-D flexible circuit
+        B.S., Electrical Engineering, POSTECH (2016)
+        LG Display, Intern (Summer 2016)
+        SK Hynix, Intern (Winter 2014)
+    - name: Inyeol Yun
+      desc: |
+        Research interest: Skin attachable sensors; electrical stimulation for healthcare applications
+        B.S., Electrical Engineering, POSTECH (2016)
+        SK Hynix, Intern (Winter 2014)
+    - name: Hyuk Park
+      desc: |
+        Research interest: Novel fabrication process for flexible thin-film transistor; flexible active lens for the next generation wireless technology
+        B.S., Electrical Engineering, POSTECH (2016)
+    - name: Si Young Lee
+      desc: |
+        Co-advised with Prof. Kilwon Cho (Chemical Engineering, principal advisor)
+        Research interest: flexible MEMS, wearable sensor
+        B.S., Chemical Engineering, POSTECH (2014)
+    - name: Seong Won Kim
+      desc: |
+        Co-advised with Prof. Kilwon Cho (Chemical Engineering, principal advisor)
+        Research interest: stretchable electrode for human–electronics interface
+        B.S., Chemical Engineering, POSTECH (2014)
+  cur_interns:
+    - name: Gilsu Jeon
+      desc: POSTECH EE, Summer 2018
+    - name: Hyung Min Ko
+      desc: Kookmin University EE, Summer 2018
+    - name: Gwon Kim
+      desc: Korea University EE, Summer 2018
+    - name: Jueun Kim
+      desc: Handong University EE, Summer 2018
+    - name: Yong Hun Song
+      desc: Kyunghee University EE, Summer 2018
+    - name: Ju Young Yun
+      desc: Kyungpook National University EE, Summer 2018
+  prev_interns:
+    - name: Dongyoon Lee
+      desc: POSTECH EE, Winter 2017
+    - name: Haeran Cho
+      desc: Korea University EE, Winter 2017
+    - name: Taewon Seo
+      desc: POSTECH EE, Fall 2017
+    - name: Jaeryung Han
+      desc: Pusan National University OME, Winter 2017
+    - name: Minji Park
+      desc: POSTECH EE, Fall 2017
+    - name: Suwon Seong
+      desc: University of Seoul ECE, Summer 2017
+    - name: Taehyoung Lim
+      desc: POSTECH EE, Spring 2017
+    - name: Suan Lee
+      desc: POSTECH EE, Spring 2017)
+    - name: Jihoon Park
+      desc: Pusan National University OME, Winter 2016
+    - name: Junseo Joe
+      desc: POSTECH EE, Winter 2016–Spring 2017
+    - name: Younghoon Byun
+      desc: POSTECH EE, Winter 2016
+    - name: Sejin Kim
+      desc: Chonnam National University ECE, Fall 2016
+    - name: Jinpyo Jeong
+      desc: POSTECH EE, Fall–Winter 2016
+    - name: Tae Gyun Lee
+      desc: Korea University EE, Summer 2016
+    - name: Woojo Kim
+      desc: Kyung Hee University ERE, Spring 2016
+    - name: Young-Uk Shin
+      desc: Kyungpook National University EE, Summer 2016
+    - name: Seongmin Park
+      desc: POSTECH EE, Winter 2015–Spring 2016
+    - name: Hyounglae Kim
+      desc: POSTECH EE, Winter 2015
+    - name: Sukjun Kang
+      desc: POSTECH EE, Winter 2015
+    - name: Won Kyung Jung
+      desc: POSTECH EE, Winter 2015
+    - name: Insung Ahn
+      desc: POSTECH EE, Winter 2015
+    - name: Inyeol Yun
+      desc: POSTECH EE, Summer–Fall 2015
+    - name: Seunglok Song
+      desc: POSTECH EE, Summer 2015
+    - name: Jeong Woo Park
+      desc: Kyung Hee University ERE, Summer 2015
+    - name: Hyuk Park
+      desc: POSTECH EE, Summer–Fall 2015
+    - name: Miram Kwon
+      desc: Soongsil University EE, Summer 2015
+    - name: Subon Kim
+      desc: Hanyang University MSE, Summer 2015
+    - name: Dong Hyup Kim
+      desc: Hanyang University EE, Summer 2015
+    - name: Jiho Choi
+      desc: Hanyang University EE, Summer 2015
