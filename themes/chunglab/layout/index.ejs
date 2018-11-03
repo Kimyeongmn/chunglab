@@ -1,13 +1,75 @@
-<% if(page.content){ %>
-  <%- page.content %>
-<% } else { %>
-  <div class="container">
-    <ul class="breadcrumb">
-      <li class="active">Home</li>
-    </ul>
-  <div id="main">
-    <%- partial('_partial/archive', {pagination: config.archive, index: true}) %>
-  </div>
-  </div>
-<% } %>
+<%- partial('_partial/main_banner') %>
 
+<div class="main">
+  <div class="container">
+    <!-- BEGIN RESEARCH AREA -->
+    <div class="row recent-work margin-bottom-40">
+      <div class="col-md-3">
+	<h2 class="wow fadeIn"><a href="/research/">Research Area</a></h2>
+    <p class="wow fadeIn">description</p>
+      </div>
+      <div class="col-md-3">
+	<div class="">
+	  <div class="recent-work-item">
+	    <em>
+          <a href="/research#category_1">
+            <img src="/assets/images/fabrication_thumbnail.jpg" alt="Fabrication Technology" class="img-responsive">
+          </a>
+	    </em>
+	    <a class="recent-work-description" href="/research#category_1">
+	      <strong>Fabrication Technology</strong>
+	    </a>
+      </div>
+    </div>
+      </div>
+      <div class="col-md-3">
+	<div class="">
+	  <div class="recent-work-item">
+	    <em>
+          <a href="/research#category_2">
+            <img src="assets/images/emerging_thumbnail.jpg" alt="Emerging Flexible Device" class="img-responsive">
+          </a>
+	    </em>
+	    <a class="recent-work-description" href="/research#category_2">
+	      <strong>Emerging Flexible Device</strong>
+	    </a>
+	  </div>
+    </div>
+      </div>
+      <div class="col-md-3">
+	<div class="">
+	  <div class="recent-work-item">
+	    <em>
+          <a href="/research#category_3">
+            <img src="assets/images/healthcare_thumbnail.jpg" alt="Wearable Healthcare" class="img-responsive">
+          </a>
+	    </em>
+	    <a class="recent-work-description" href="/research#category_3">
+	      <strong>Wearable Healthcare</strong>
+	    </a>
+	  </div>
+	</div>       
+      </div>
+    </div>   
+    <!-- END RESEARCH AREA -->
+
+<div class="container-fluid">
+<div class="row margin-bottom-40 bg-light-2" style="min-height: 200px;">
+  <div class="container">
+    <div class="col-md-5 row-corporate-text-container" style="height: 200px;">
+    <div class="row-corporate-text">
+      <h1><b class="wow fadeIn require">Word Cloud</b></h1>
+      <h4 class="wow fadeIn">Representative keywords from our publications
+        (by Word Cloud Generator)</h4>
+    </div>
+    </div>
+    <div class="col-md-7 wow fadeIn">
+      <img src="/assets/images/wordcloud.jpg" style="width: 80%; min-width: 330px; height: 300px;">
+    </div>
+  </div>
+</div>
+</div>
+    <%- partial('_partial/news') %>
+    <%- partial('_partial/sponsor') %>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<%
+    const count = 5;
+%>
+<!-- BEGIN SPONSORS -->
+<div class="row margin-bottom-40 our-clients">
+  <div class="col-md-3 maring-bottom-20">
+    <h2><a href="javascript:;">Our Sponsors</a></h2>
+    <p>We appreciate the support from a variety of government agencies, consortiums, and companies.</p>
+  </div>
+  <% for(var i=0; i < theme.sponsors.length/count; i++) { %>
+  <div class="col-md-9">
+    <div class="owl-carousel owl-carousel5">
+    <% for(var j=0; j < count; j++) {
+      let sponsor = theme.sponsors[(i*count + j)];
+    %>
+      <div class="">
+        <a target="_blank" href=<%= sponsor['url'] %>>
+          <img src=<%= sponsor['img'] %> class="img-responsive" alt="" style="height:90px; object-fit: contain;">
+        </a>
+      </div>
+    <% } %>
+    </div>
+  </div>
+  <% } %>
+</div>
+<!-- END SPONSORS -->
