@@ -87,6 +87,10 @@
 
 1. local computer에 aws credential 등록
 
+1. `hexo clean`
+
+1. `hexo generate`
+
 1. `hexo deploy`
 
 # FAQ
