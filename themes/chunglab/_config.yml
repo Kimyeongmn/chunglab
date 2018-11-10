@@ -147,35 +147,45 @@ photos:
 people:
   principal_investigator:
     name: Yoonyoung Chung
+    title: Professor
     desc: Ph.D., Electrical Engineering, Stanford University (2012)
     thumb: ../metronic/assets/pages/img/people/img5-large.jpg
+    social:
+      email: ychung@postech.ac.kr
   graduate_students:
     - name: Taewon Seo
+      title: Graduate students
       desc: |
         Research interest: Undergraduate student at POSTECH EE (to be enrolled in our graduate program in Spring 2018)
     - name: Jiinpyeo Jeung
+      title: Graduate students
       desc: Undergraduate student at POSTECH EE (to be enrolled in our graduate program in Spring 2018) LG Display, Intern (Summer 2016)
     - name: Seongmin Park
+      title: Graduate students
       desc: |
         Research interest: Flexible full-color electronic paper; novel 3-D flexible circuit
         B.S., Electrical Engineering, POSTECH (2016)
         LG Display, Intern (Summer 2016)
         SK Hynix, Intern (Winter 2014)
     - name: Inyeol Yun
+      title: Graduate students
       desc: |
         Research interest: Skin attachable sensors; electrical stimulation for healthcare applications
         B.S., Electrical Engineering, POSTECH (2016)
         SK Hynix, Intern (Winter 2014)
     - name: Hyuk Park
+      title: Graduate students
       desc: |
         Research interest: Novel fabrication process for flexible thin-film transistor; flexible active lens for the next generation wireless technology
         B.S., Electrical Engineering, POSTECH (2016)
     - name: Si Young Lee
+      title: Graduate students
       desc: |
         Co-advised with Prof. Kilwon Cho (Chemical Engineering, principal advisor)
         Research interest: flexible MEMS, wearable sensor
         B.S., Chemical Engineering, POSTECH (2014)
     - name: Seong Won Kim
+      title: Graduate students
       desc: |
         Co-advised with Prof. Kilwon Cho (Chemical Engineering, principal advisor)
         Research interest: stretchable electrode for human–electronics interface

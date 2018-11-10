@@ -50,21 +50,7 @@
 	  <h3>PRINCIPAL INVESTIGATOR</h3>
 	<ul class="list-unstyled">
 	  <li class="col-md-3">
-	    <div class="thumbnail">
-          <img src=<%= theme.people.principal_investigator.thumb %>>
-	      <h3>
-            <strong><%= theme.people.principal_investigator.name %></strong>
-            <small>Professor</small>
-          </h3>
-          <p><%= theme.people.principal_investigator.desc %></p>
-	      <ul class="social-icons social-icons-color">
-		<li><a class="facebook" data-original-title="Facebook" href="javascript:;"></a></li>
-		<li><a class="twitter" data-original-title="Twitter" href="javascript:;"></a></li>
-		<li><a class="googleplus" data-original-title="Goole Plus" href="javascript:;"></a></li>
-		<li><a class="linkedin" data-original-title="Linkedin" href="javascript:;"></a></li>
-		<li><a class="email" data-original-title="Linkedin" href="mailto:ychung@postech.ac.kr"></a></li>
-	      </ul>
-	    </div>
+        <%- partial('_partial/personal-info', { person: theme.people.principal_investigator }) %>
 	  </li>
 	</ul>            
       </div>
@@ -73,20 +59,7 @@
       <ul class="list-unstyled">
         <% theme.people.graduate_students.forEach(function(student) { %>
         <li class="col-md-3">
-          <div class="thumbnail">
-            <img src=<%= student.thumb %>>
-            <h3>
-              <strong><%= student.name %></strong> 
-              <small>Graduate students</small>
-            </h3>
-            <p><%- student.desc.replace("\n", "<br>") %></p>
-            <ul class="social-icons social-icons-color">
-              <li><a class="facebook" data-original-title="Facebook" href="javascript:;"></a></li>
-              <li><a class="twitter" data-original-title="Twitter" href="javascript:;"></a></li>
-              <li><a class="googleplus" data-original-title="Goole Plus" href="javascript:;"></a></li>
-              <li><a class="linkedin" data-original-title="Linkedin" href="javascript:;"></a></li>
-            </ul>
-          </div>
+          <%- partial('_partial/personal-info', { person: student }) %>
         </li>
     <% }); %>
 	</ul>            
@@ -97,12 +70,7 @@
 	<ul class="list-unstyled">
       <% theme.people.cur_interns.forEach(function(intern) { %>
       <li class="col-md-3">
-	    <div class="thumbnail">
-	      <h3>
-            <strong><%= intern.name %></strong> 
-            <small><%= intern.desc %></small>
-	      </h3>
-	    </div>
+        <%- partial('_partial/personal-info', { person: intern }) %>
       </li>
     <% }); %>
 	</ul>            
@@ -113,12 +81,7 @@
 	<ul class="list-unstyled">
       <% theme.people.prev_interns.forEach(function(intern) { %>
       <li class="col-md-3">
-	    <div class="thumbnail">
-	      <h3>
-            <strong><%= intern.name %></strong> 
-            <small><%= intern.desc %></small>
-	      </h3>
-	    </div>
+        <%- partial('_partial/personal-info', { person: intern }) %>
       </li>
     <% }); %>
 	</ul>            

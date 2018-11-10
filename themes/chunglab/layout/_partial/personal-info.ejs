@@ -1,0 +1,28 @@
+<div class="thumbnail">
+  <img src=<%= person.thumb %>>
+  <h3>
+    <strong><%= person.name %></strong>
+    <small><%= person.title %></small>
+  </h3>
+  <% console.log(person.desc); %>
+  <p><%- person.desc.replace(/\n/g, "<br>") %></p>
+  <% if (person.social) { %>
+  <ul class="social-icons social-icons-color">
+    <% if (person.social.facebook) { %>
+      <li><a class="facebook" data-original-title="Facebook" href="<%= person.social.facebook %>"></a></li>
+    <% }
+      if (person.social.twitter) { %>
+      <li><a class="twitter" data-original-title="Twitter" href="<%= person.social.twitter %>"></a></li>
+    <% }
+      if (person.social.google_plus) { %>
+      <li><a class="googleplus" data-original-title="Goole Plus" href="<%= person.social.google_plus %>"></a></li>
+    <% }
+      if (person.social.linkedin) { %>
+      <li><a class="linkedin" data-original-title="Linkedin" href="<%= person.social.linkedin %>"></a></li>
+    <% }
+      if (person.social.email) { %>
+      <li><a class="email" data-original-title="Linkedin" href="mailto:<%= person.social.email %>"></a></li>
+    <% } %>
+  </ul>
+<% } %>
+</div>
