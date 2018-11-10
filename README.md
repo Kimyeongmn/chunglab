@@ -2,7 +2,12 @@
 
 이 프로젝트는 [hexo](https://hexo.io/ko/index.html)의 [corporate theme](https://github.com/ptsteadman/hexo-theme-corporate)를 기반으로 제작되었음
 
+## 이미지 저장소
+
+* source/assets/images 에 저장
+
 ## Menu 구성
+
 * theme config 파일(themes/chunglab/_config.yml)의 menu에서 수정
 
 ## Home
@@ -29,11 +34,15 @@
 ### info title & body 수정
 * theme config의 about, description 수정
 
+### social(email, facebook, twitter, linkedin, googleplus) 정보
+* theme config의 people 의 social 하위에 email, facebook, twitter, linkedin, googleplus 를 key, 해당 social 주소를 value로 입력(ex. facebook: www.facebook.com/chunglab)
+
 ### 사진 편집
 * theme config의 photos 수정 or 추가
 
 ### People 편집
 * theme config의 people 수정 or 추가
+
 
 ## Achievements
 
@@ -89,3 +98,7 @@ A. https://opensiebel.com/2018/05/24/hexo-depoly-s3/
 Q. 변경한 소스 및 config가 반영이 되지 않을 때
 
 A. `hexo clean`, `hexo generate`을 실행해 build를 다시 한다
+
+Q. 이미지는 어떻게 접근하면 되나요?
+
+A. source/assets/images/xxx.jpg 에 저장하면, /assets/images/xxx.jpg 로 접근 가능합니다.
