@@ -14,14 +14,10 @@
   <% } %>
     <%- partial('post/title', {class_name: 'archive-article-title'}) %>
     <ul class="blog-info">
-      <li>
-      	<i class="fa fa-calendar"></i> 
-        <%- partial('post/date', {class_name: 'archive-article-date', date_format: 'YYYY/MM/DD'}) %>
-      </li>
-      <li><i class="fa fa-user"></i> <%- post.author || theme.default_author || "Anonymous" %></li>
       <% if(post.journal) { %>
         <li><i class="fa fa-book"></i> <%- post.journal || "Anonymous" %></li>
       <% } %>
+      <li><i class="fa fa-user"></i> <%- post.author || theme.default_author || "Anonymous" %></li>
       <% if(post.tags.length > 0) { %>
       <li>
 	<i class="fa fa-tags"></i>
