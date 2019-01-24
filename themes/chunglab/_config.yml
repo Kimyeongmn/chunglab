@@ -149,48 +149,86 @@ people:
     name: Yoonyoung Chung
     title: Professor
     desc: Ph.D., Electrical Engineering, Stanford University (2012)
-    thumb: ../metronic/assets/pages/img/people/img5-large.jpg
+    #thumb: ../metronic/assets/pages/img/people/img5-large.jpg
     social:
       email: ychung@postech.ac.kr
   graduate_students:
+    - name: Juyoung Yun
+      title: Graduate students
+      desc: |
+        B.S., Electrical Engineering, Kyungpook National University (2019)
+        Research interest: 
+      social:
+        email: jpjeung@postech.ac.kr
+    - name: Hyungmin Ko
+      title: Graduate students
+      desc: |
+        B.S., Electrical Engineering, Kookmin University (2018)
+        Research interest: 
+      social:
+        email: gudals0327@gmail.com
     - name: Taewon Seo
       title: Graduate students
       desc: |
-        Research interest: Undergraduate student at POSTECH EE (to be enrolled in our graduate program in Spring 2018)
-    - name: Jiinpyeo Jeung
+        B.S., Electrical Engineering, POSTECH (2018)
+        Research interest: 
+      social:
+        email: mjionunt02@postech.ac.kr
+    - name: Jinpyeo Jeung
       title: Graduate students
-      desc: Undergraduate student at POSTECH EE (to be enrolled in our graduate program in Spring 2018) LG Display, Intern (Summer 2016)
+      desc: |
+        B.S., Electrical Engineering, POSTECH (2018)
+        Research interest: Skin attachable sensors; surface electrode
+        LG Display, Intern (Summer 2016)
+      social:
+        email: jpjeung@postech.ac.kr
     - name: Seongmin Park
       title: Graduate students
       desc: |
-        Research interest: Flexible full-color electronic paper; novel 3-D flexible circuit
         B.S., Electrical Engineering, POSTECH (2016)
+        Research interest: Flexible full-color electronic paper; novel 3-D flexible circuit
         LG Display, Intern (Summer 2016)
         SK Hynix, Intern (Winter 2014)
+      social:
+        email: psm918@postech.ac.kr
     - name: Inyeol Yun
       title: Graduate students
       desc: |
-        Research interest: Skin attachable sensors; electrical stimulation for healthcare applications
+        M.S., Electrical Engineering, POSTECH (2018)
         B.S., Electrical Engineering, POSTECH (2016)
+        Research interest: Skin attachable sensors; electrical stimulation for healthcare applications
         SK Hynix, Intern (Winter 2014)
+      social:
+        email: inyul1225@postech.ac.kr
     - name: Hyuk Park
       title: Graduate students
       desc: |
-        Research interest: Novel fabrication process for flexible thin-film transistor; flexible active lens for the next generation wireless technology
         B.S., Electrical Engineering, POSTECH (2016)
+        Research interest: Novel fabrication process for flexible thin-film transistor; flexible active lens for the next generation wireless technology
+      social:
+        email: sksqkrgur@postech.ac.kr
     - name: Si Young Lee
       title: Graduate students
       desc: |
         Co-advised with Prof. Kilwon Cho (Chemical Engineering, principal advisor)
         Research interest: flexible MEMS, wearable sensor
         B.S., Chemical Engineering, POSTECH (2014)
+      social:
+        email: challenge@postech.ac.kr
     - name: Seong Won Kim
       title: Graduate students
       desc: |
         Co-advised with Prof. Kilwon Cho (Chemical Engineering, principal advisor)
         Research interest: stretchable electrode for human–electronics interface
         B.S., Chemical Engineering, POSTECH (2014)
+      social:
+        email: ksw1118@postech.ac.kr
   cur_interns:
+    - name: Yunsik Kim
+      desc: POSTECH EE, Winter 2018
+  prev_interns:
+    - name: Yunsik Kim
+      desc: POSTECH EE, Summer 2018
     - name: Gilsu Jeon
       desc: POSTECH EE, Summer 2018
     - name: Hyung Min Ko
@@ -203,7 +241,6 @@ people:
       desc: Kyunghee University EE, Summer 2018
     - name: Ju Young Yun
       desc: Kyungpook National University EE, Summer 2018
-  prev_interns:
     - name: Dongyoon Lee
       desc: POSTECH EE, Winter 2017
     - name: Haeran Cho
@@ -228,7 +265,7 @@ people:
       desc: POSTECH EE, Winter 2016
     - name: Sejin Kim
       desc: Chonnam National University ECE, Fall 2016
-    - name: Jinpyo Jeong
+    - name: Jinpyeo Jeung
       desc: POSTECH EE, Fall–Winter 2016
     - name: Tae Gyun Lee
       desc: Korea University EE, Summer 2016
