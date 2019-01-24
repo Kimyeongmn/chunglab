@@ -6,6 +6,7 @@ tags:
 - organic transistors
 category: Publication
 filter: 2011
+link: https://pubs.acs.org/doi/abs/10.1021/nl104087u
 ---
 
 ### Abstract

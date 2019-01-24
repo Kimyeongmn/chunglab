@@ -6,6 +6,7 @@ tags:
 - organic transistors
 category: Publication
 filter: 2010
+link: https://onlinelibrary.wiley.com/doi/full/10.1002/adfm.201000425
 ---
 
 ### Abstract

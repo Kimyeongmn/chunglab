@@ -6,6 +6,7 @@ tags:
 - electronic skin
 category: Publication
 filter: 2016
+link: https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201600408
 ---
 
 ### Abstract

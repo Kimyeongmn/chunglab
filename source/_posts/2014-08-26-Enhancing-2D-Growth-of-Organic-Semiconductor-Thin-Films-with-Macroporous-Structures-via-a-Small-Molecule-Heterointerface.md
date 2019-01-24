@@ -7,7 +7,7 @@ tags:
 - nature communications
 category: Publication
 filter: 2014
-reference: https://www.nature.com/articles/ncomms5752
+link: https://www.nature.com/articles/ncomms5752
 ---
 
 ### Abstract

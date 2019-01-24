@@ -6,6 +6,7 @@ tags:
 - transistors
 category: Publication
 filter: 2010
+link: https://aip.scitation.org/doi/abs/10.1063/1.3336009?journalCode=apl
 ---
 
 ### Abstract

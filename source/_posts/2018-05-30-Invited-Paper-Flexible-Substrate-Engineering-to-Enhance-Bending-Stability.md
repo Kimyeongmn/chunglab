@@ -5,6 +5,7 @@ journal: SID Symposium Digest of Technical Papers 49, 892 (2018)
 tags:
 - flexible
 category: Publication
+link: https://onlinelibrary.wiley.com/doi/abs/10.1002/sdtp.12245
 filter: 2018
 ---
 

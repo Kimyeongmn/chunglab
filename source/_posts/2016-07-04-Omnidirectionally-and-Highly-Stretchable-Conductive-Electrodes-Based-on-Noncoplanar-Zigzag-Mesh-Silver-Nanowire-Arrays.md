@@ -6,6 +6,7 @@ tags:
 - conductive
 category: Publication
 filter: 2016
+link: https://onlinelibrary.wiley.com/doi/full/10.1002/aelm.201600158
 ---
 
 ### Abstract
