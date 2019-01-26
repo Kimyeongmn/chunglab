@@ -8,14 +8,7 @@
 	  <div class="carousel-inner">
         <% theme.news.forEach(function(news, index) { %>
           <div class="<%= index == 0 ? 'active' : ''%> item">
-            <blockquote><p><%- news.message.replace("\n", "<br>") %></p></blockquote>
-            <div class="carousel-info">
-              <img class="pull-left" src=<%= news.thumb %> alt="">
-              <div class="pull-left">
-                <span class="testimonials-name"><%= news.name %></span>
-                <span class="testimonials-post"><%= news.role %></span>
-            </div>
-        </div>
+            <blockquote><p><%- news.message.replace(/(?:\r\n|\r|\n)/g, '<br>') %></p></blockquote>
       </div>
         <% }); %>
 	  </div>

@@ -55,64 +55,34 @@ banners:
   - src: /assets/images/banners/banner-1.jpg
   - src: /assets/images/banners/banner-3.jpg
 news:
-  - name: Chanhyun Lee
-    thumb: metronic/assets/pages/img/people/img1-small.jpg
-    role: Group Admin
-    message: |
+  - message: |
       Inyeol wins an excellence award at the 5th Bio Startup Idea Competition (http://biostartup.jobkorea.co.kr). Congratulations!
       (May. 2018)
-  - name: Chanhyun Lee
-    thumb: metronic/assets/pages/img/people/img1-small.jpg
-    role: Group Admin
-    message: |
+
       Taewon joins our group. Welcome!
       (Feb. 2018)
-  - name: Chanhyun Lee
-    thumb: metronic/assets/pages/img/people/img1-small.jpg
-    role: Group Admin
-    message: |
+
       Seongmin and Hyuk gives excellent presentations about their research on flexible devices at the 2017 MRS Fall Meeting in Boston.
       (Nov. 2017)
-  - name: Chanhyun Lee
-    thumb: metronic/assets/pages/img/people/img1-small.jpg
-    role: Group Admin
-    message: |
+
       Inyeol and Jinpyo exhibits their work on the wearable sensor platform to prevent Sudden Infant Death Syndrome at the Tech Fair organized by the Center for Advanced Soft Electronics. Well done!
       (Nov. 2017)
-  - name: Chanhyun Lee
-    thumb: metronic/assets/pages/img/people/img1-small.jpg
-    role: Group Admin
-    message: |
+
       Prof. Chung gives a special lecture on e-paper technologies at the LG Display Technical Talk.
       (Jun. 2017)
-  - name: Chanhyun Lee
-    thumb: metronic/assets/pages/img/people/img1-small.jpg
-    role: Group Admin
-    message: |
+  - message: |
       Jinpyeo, an undergraduate intern, gets early admission to POSTECH. He will join our graduate program in Spring 2018. Congratulations!
       (Jan. 2017)
-  - name: Chanhyun Lee
-    thumb: metronic/assets/pages/img/people/img1-small.jpg
-    role: Group Admin
-    message: |
+
       A team of Prof. Yoonyoung Chung (Co-PI), Prof. Ho-Jin Song (PI), and Prof. Wonbin Hong (Co-PI) at POSTECH EE is chosen as the recipient of the prestigious ICT research award from Samsung Future Technology Foundation. The groundbreaking research aims to develop massive MIMO beamforming technologies with flexible electronics.
       (Sep. 2016)
-  - name: Chanhyun Lee
-    thumb: metronic/assets/pages/img/people/img1-small.jpg
-    role: Group Admin
-    message: |
+
       Seongmin joins our group. Welcome!
       (Sep. 2016)
-  - name: Chanhyun Lee
-    thumb: metronic/assets/pages/img/people/img1-small.jpg
-    role: Group Admin
-    message: 
-      "Two graduate students Inyeol and Hyuk joins our group. Let's celebrate a new beginning!\n
-      (Mar. 2016)"
-  - name: Chanhyun Lee
-    thumb: metronic/assets/pages/img/people/img1-small.jpg
-    role: Group Admin
-    message: |
+
+      Two graduate students Inyeol and Hyuk joins our group. Let's celebrate a new beginning!
+      (Mar. 2016)
+
       Professor Yoonyoung Chung joins the EE department at POSTECH as an assistant professor.
       (Feb. 2015)
 
