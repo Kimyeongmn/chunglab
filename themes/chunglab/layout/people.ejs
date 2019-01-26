@@ -49,7 +49,7 @@
       <div class="row front-team">
 	  <h3>PRINCIPAL INVESTIGATOR</h3>
 	<ul class="list-unstyled">
-	  <li class="col-md-3">
+	  <li class="col-md-4">
         <%- partial('_partial/personal-info', { person: theme.people.principal_investigator }) %>
 	  </li>
 	</ul>            
@@ -58,7 +58,7 @@
 	  <h3>GRADUATE STUDENTS</h3>
       <ul class="list-unstyled">
         <% theme.people.graduate_students.forEach(function(student) { %>
-        <li class="col-md-3">
+        <li class="col-md-4">
           <%- partial('_partial/personal-info', { person: student }) %>
         </li>
     <% }); %>
