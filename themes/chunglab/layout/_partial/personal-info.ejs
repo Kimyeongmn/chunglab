@@ -4,7 +4,6 @@
     <strong><%= person.name %></strong>
     <small><%= person.title %></small>
   </h3>
-  <% console.log(person.desc); %>
   <p><%- person.desc.replace(/\n/g, "<br>") %></p>
   <% if (person.social) { %>
   <ul class="social-icons social-icons-color">
